@@ -1,5 +1,5 @@
 provider "aws" {
-   region = "us-east-1" 
+   region = "us-west-1" 
 }
 
 resource "aws_vpc" "action" {
@@ -9,21 +9,4 @@ resource "aws_vpc" "action" {
     Name = "class30"
  }
 
-
-
-#create s3 bucket
-provider "aws" {
-  region = "us-east-1"
-}
-
-module "s3_bucket" {
-  source = "terraform-aws-modules/s3-bucket/aws"
-
-  bucket = "class30s3b"
-  acl    = "private"
-
-  versioning = {
-    enabled = true
-  }
-}
 }
