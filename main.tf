@@ -7,6 +7,10 @@ resource "aws_vpc" "action" {
 
  tags = {
     Name = "class30"
+    Team = "Devops"
  }
 
 }
+
+
+
