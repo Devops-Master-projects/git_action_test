@@ -1,6 +1,6 @@
 module.exports = {
     branches: "main",
-    repositoryUrl: "https://github.com/Devops-Master-projects/Action_Test.git",
+    repositoryUrl: "git@github.com:Devops-Master-projects/Action_Test.git",
     plugins: [
       '@semantic-release/commit-analyzer',
       '@semantic-release/release-notes-generator',
