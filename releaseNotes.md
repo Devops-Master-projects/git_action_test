@@ -21,7 +21,7 @@ module.exports = {
 4. Commit your project to the repo using conventional commits. Your commit messages should start with:
 
     fix:                  ......for a patch version
-    feat:                 ......for a minor version
+    feat:                  ......for a minor version
     BREAKING CHANGE:      .......for a major version
 
 4. Add step in the CI workflow:
