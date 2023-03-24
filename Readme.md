@@ -8,7 +8,7 @@ npm install @semantic-release/git @semantic-release/github --save-dev
 after install create new file in the action dir. = release.config.json
 
 ## commit messages
-- name: release
+ name: release
         run: npx semantic-release
         
 git commit -m "fix: semantaic versioning"
