@@ -70,3 +70,5 @@ Or use conditions like:
 - name: Terraform apply
   if: github.ref == 'refs/heads/main' && github.event_name == 'push'
   run: terraform apply -auto-approve
+
+  why
