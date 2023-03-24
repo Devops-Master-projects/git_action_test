@@ -13,3 +13,10 @@ after install create new file in the action dir. = release.config.json
         
 git commit -m "fix: semantaic versioning"
 
+#### gGrant workflow access 
+permissions:
+   contents: write
+   issues: write
+   pull-request: write
+   
+
