@@ -28,8 +28,8 @@ jobs:
         run: terraform validate
       - name: Terraform plan
         run: terraform plan
-    #  - name: release
-     #   run: npx semantic-release
+      - name: release
+        run: npx semantic-release
         env:
           GITHUB_TOKEN: ${{secrets.MY_GITHUB_TOKEN}}
         
