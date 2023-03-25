@@ -71,4 +71,4 @@ Or use conditions like:
   if: github.ref == 'refs/heads/main' && github.event_name == 'push'
   run: terraform apply -auto-approve
 
-  why
+  
