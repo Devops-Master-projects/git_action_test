@@ -1,5 +1,5 @@
 module.exports = {
-  branches: "main", 
+  branches: "*", 
   repositoryUrl: "https://github.com/Devops-Master-projects/git_action_test.git",
   plugins: [
     '@semantic-release/commit-analyzer',
